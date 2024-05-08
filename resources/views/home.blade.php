@@ -15,8 +15,9 @@
 </head>
 
 <body>
-    <div class="container my-3">
+    <div class="container my-5">
         <h1 class="text-center">Hello Laravel</h1>
+        <p class="text-center fst-italic">made by {{ $name }} {{ $surname }}</p>
     </div>
 </body>
 
