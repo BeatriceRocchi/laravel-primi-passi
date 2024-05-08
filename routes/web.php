@@ -19,3 +19,11 @@ Route::get('/', function () {
 
     return view('home', compact('name', 'surname'));
 })->name('home');
+
+Route::get('/about-Laravel', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/documentation-Laravel', function () {
+    return view('documentation');
+})->name('documentation');

@@ -28,8 +28,9 @@
         </nav>
     </header>
     <div class="container my-5">
-        <h1 class="text-center">Laravel</h1>
-        <p class="text-center fst-italic">made by {{ $name }} {{ $surname }}</p>
+        <h1 class="text-center">About Laravel</h1>
+        <p>Laravel is a web application framework with expressive, elegant syntax. We have already laid the foundation —
+            freeing you to create without sweating the small things.</p>
     </div>
 </body>
 

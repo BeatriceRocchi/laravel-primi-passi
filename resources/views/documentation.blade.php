@@ -28,8 +28,7 @@
         </nav>
     </header>
     <div class="container my-5">
-        <h1 class="text-center">Laravel</h1>
-        <p class="text-center fst-italic">made by {{ $name }} {{ $surname }}</p>
+        <h1 class="text-center">Laravel Documentation</h1>
     </div>
 </body>
 
