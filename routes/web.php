@@ -16,8 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $name = 'Beatrice';
     $surname = 'Rocchi';
+    $logo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Logo.min.svg/1200px-Logo.min.svg.png';
 
-    return view('home', compact('name', 'surname'));
+    return view('home', compact('name', 'surname', 'logo'));
 })->name('home');
 
 Route::get('/about-Laravel', function () {

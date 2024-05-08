@@ -11,19 +11,17 @@
         integrity='sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=='
         crossorigin='anonymous' />
 
-    {{-- CSS --}}
-    <link rel="stylesheet" href="public/css">
-
     <title>Laravel Primi Passi</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul class="list-unstyled d-flex justify-content-evenly bg-body-secondary py-3">
-                <li><a class="text-decoration-none" href="/">Home</a></li>
-                <li><a class="text-decoration-none" href="/about-Laravel">About</a></li>
-                <li><a class="text-decoration-none" href="/documentation-Laravel">Documentation</a></li>
+            <ul class="list-unstyled d-flex justify-content-evenly bg-danger py-4">
+                <li><a class="text-decoration-none text-white" href="{{ route('home') }}">Home</a></li>
+                <li><a class="text-decoration-none text-white" href="{{ route('about') }}">About</a></li>
+                <li><a class="text-decoration-none text-white" href="{{ route('documentation') }}">Documentation</a>
+                </li>
             </ul>
         </nav>
     </header>
