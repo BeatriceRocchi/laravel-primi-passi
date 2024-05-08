@@ -18,16 +18,22 @@
     <header>
         <nav>
             <ul class="list-unstyled d-flex justify-content-evenly bg-danger py-4">
-                <li><a class="text-decoration-none text-white" href="{{ route('home') }}">Home</a></li>
-                <li><a class="text-decoration-none text-white" href="{{ route('about') }}">About</a></li>
-                <li><a class="text-decoration-none text-white" href="{{ route('documentation') }}">Documentation</a>
+                <li>
+                    <a class="text-decoration-none text-white" href="{{ route('home') }}">Home</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-white" href="{{ route('about') }}">About</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-white" href="{{ route('documentation') }}">Documentation</a>
                 </li>
             </ul>
         </nav>
     </header>
     <div class="container my-5">
-        <p>Laravel is a web application framework with expressive, elegant syntax. We have already laid the foundation —
-            freeing you to create without sweating the small things.</p>
+        <p class="fs-2 text-center mx-5">Laravel is a web application framework with expressive, elegant syntax. We have
+            already laid the foundation — freeing you to create without sweating the small things.
+        </p>
     </div>
 </body>
 

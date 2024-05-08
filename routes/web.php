@@ -26,5 +26,6 @@ Route::get('/about-Laravel', function () {
 })->name('about');
 
 Route::get('/documentation-Laravel', function () {
-    return view('documentation');
+    $data = ['button_text' => 'Get documentation', 'version' => '10'];
+    return view('documentation', $data);
 })->name('documentation');

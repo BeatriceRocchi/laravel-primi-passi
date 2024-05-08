@@ -18,15 +18,21 @@
     <header>
         <nav>
             <ul class="list-unstyled d-flex justify-content-evenly bg-danger py-4">
-                <li><a class="text-decoration-none text-white" href="{{ route('home') }}">Home</a></li>
-                <li><a class="text-decoration-none text-white" href="{{ route('about') }}">About</a></li>
-                <li><a class="text-decoration-none text-white" href="{{ route('documentation') }}">Documentation</a>
+                <li>
+                    <a class="text-decoration-none text-white" href="{{ route('home') }}">Home</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-white" href="{{ route('about') }}">About</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-white" href="{{ route('documentation') }}">Documentation</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div class="container my-5">
-        <h1 class="text-center">Laravel Documentation</h1>
+    <div class="container d-flex flex-column justify-content-center my-5">
+        <h1 class="text-center mb-4">Laravel Documentation for version {{ $version }}</h1>
+        <button class="btn btn-danger mx-auto">{{ $button_text }}</button>
     </div>
 </body>
 

@@ -23,9 +23,14 @@
     <header>
         <nav>
             <ul class="list-unstyled d-flex justify-content-evenly bg-danger py-4">
-                <li><a class="text-decoration-none text-white" href="{{ route('home') }}">Home</a></li>
-                <li><a class="text-decoration-none text-white" href="{{ route('about') }}">About</a></li>
-                <li><a class="text-decoration-none text-white" href="{{ route('documentation') }}">Documentation</a>
+                <li>
+                    <a class="text-decoration-none text-white" href="{{ route('home') }}">Home</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-white" href="{{ route('about') }}">About</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-white" href="{{ route('documentation') }}">Documentation</a>
                 </li>
             </ul>
         </nav>
